@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>toDo List</title>
+            <script src="confetti.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <style>
+    body {
+
+        font-family: Arial, Helvetica, sans-serif;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    body.dark-mode {
+    background-color: #333;
+    color: #fff;
+    }
+
+    #mode-switch {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        list-style: none;
+
+    }
+
+    .delete-btn {
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Aufgabenliste🗣️</h1>
+            <div class="content-container">
+                <input id="input-field" type="text"><button onclick="addTodo()" id="add-todo">+</button>
+                <button onclick="downloadJSON()">Export JSON</button>
+                <ul id="itemList"></ul>
+            </div>
+            <button id="mode-switch">Toggle Dark Mode</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

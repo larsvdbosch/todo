@@ -1,0 +1,34 @@
+{
+    "todos": [
+      {
+        "taskId": 1,
+        "title": "Buy groceries",
+        "description": "Milk, Bread, Eggs, and Cheese",
+        "dueDate": "2024-10-05",
+        "priority": "high",
+        "status": "pending",
+        "createdAt": "2024-10-01T10:00:00Z",
+        "updatedAt": "2024-10-02T12:00:00Z"
+      },
+      {
+        "taskId": 2,
+        "title": "Finish project report",
+        "description": "Complete the final draft of the report",
+        "dueDate": "2024-10-06",
+        "priority": "medium",
+        "status": "in-progress",
+        "createdAt": "2024-10-01T14:30:00Z",
+        "updatedAt": "2024-10-03T09:45:00Z"
+      },
+      {
+        "taskId": 3,
+        "title": "Call plumber",
+        "description": "Fix the kitchen sink leak",
+        "dueDate": "2024-10-04",
+        "priority": "low",
+        "status": "completed",
+        "createdAt": "2024-09-30T08:00:00Z",
+        "updatedAt": "2024-10-01T11:15:00Z"
+      }
+    ]
+  }
